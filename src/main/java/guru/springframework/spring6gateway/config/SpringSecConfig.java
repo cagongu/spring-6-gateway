@@ -1,6 +1,5 @@
 package guru.springframework.spring6gateway.config;
 
-
 import org.springframework.boot.actuate.autoconfigure.security.reactive.EndpointRequest;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
