@@ -78,6 +78,11 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <docker>
+                        <host>tcp://localhost:2375</host>
+                    </docker>
+                </configuration>
             </plugin>
         </plugins>
     </build>
